@@ -53,13 +53,13 @@ nav a:hover {
 }
 
 #banner {
-    width: 100%;
+    width: auto;
     height: auto;
     background-color: white;
 }
 
 #banner img {
-    width: 60%;
+    width: auto;
     height: auto;
 }
 
@@ -83,4 +83,22 @@ td,
 th {
     border: 1px solid black;
     padding: 5px;
+}
+
+.highlight {
+    color: white;
+}
+#holiday {
+    width: 100%;
+    padding: 25px;
+    background-color: lightblue;
+}
+footer {
+    width: 100%;
+    padding: 20px;
+    background-color: green;
+}
+
+footer p {
+    color: white;
 }
